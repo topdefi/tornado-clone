@@ -330,9 +330,9 @@ export default {
     nativeCurrency: 'matic',
     currencyName: 'MATIC',
     explorerUrl: {
-      tx: 'https://mumbai.polygonscan.com/tx/',
-      address: 'https://mumbai.polygonscan.com/address/',
-      block: 'https://mumbai.polygonscan.com/block/'
+      tx: 'https://rpc.ankr.com/polygon_mumbai/tx/',
+      address: 'https://rpc.ankr.com/polygon_mumbai/address/',
+      block: 'https://rpc.ankr.com/polygon_mumbai/block/'
     },
     merkleTreeHeight: 20,
     emptyElement: '21663839004416932945382355908790599225266501822907911457504978515578255421292',

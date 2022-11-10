@@ -334,8 +334,7 @@ const actions = {
     const ethProvider = rootGetters['relayer/ethProvider']
     const contract = new ethProvider.eth.Contract(
       SanctionsListAbi,
-      // '0x40C57923924B5c5c5455c48D93317139ADDaC8fb' Mainnet
-      '0x033eE166Aaa68074Cb82B5BC31756b1dF4090925'
+      '0x40C57923924B5c5c5455c48D93317139ADDaC8fb'
     )
 
     const isSanctioned = await contract.methods.isSanctioned(address).call()
@@ -601,7 +600,7 @@ const actions = {
           symbol: 'MATIC',
           decimals: 18
         },
-        blockExplorerUrls: ['https://mumbai.polygonscan.com']
+        blockExplorerUrls: ['https://rpc.ankr.com/polygon_mumbai']
       }
     }
 
